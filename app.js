@@ -9,7 +9,7 @@ app.listen(port, () => {
 })
 
 app.get('/', (req,res) => {
-    res.redirect('https://google.com')
+    res.redirect('https://github.com/Thamir-011/quoting')
 })
 
 app.use(routes)
